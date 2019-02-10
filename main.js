@@ -27,7 +27,7 @@ var top250 = {
     _this.isloading = true;
     _this.$section.find('.loading').show();
     $.ajax({
-    url: 'http://douban.uieee.com/v2/movie/top250',
+    url: 'https://douban.uieee.com/v2/movie/top250',
     type: 'get',
     data: {
       start: _this.index,
@@ -110,7 +110,7 @@ var north_us = {
     var _this = this 
     _this.$section.find('.loading').show();
     $.ajax({
-    url: 'http://douban.uieee.com/v2/movie/us_box',
+    url: 'https://douban.uieee.com/v2/movie/us_box',
     type: 'get',
     dataType: 'jsonp',
     contentType: "application/xml; charset=utf-8"
